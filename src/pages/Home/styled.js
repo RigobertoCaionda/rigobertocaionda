@@ -12,6 +12,68 @@ export const HomePageArea = styled.div`
 		line-height: 150px;
 		background-color: #fdf6e3;
 	}
+	.contacto {
+		display: flex;
+		max-width: 700px;
+		margin: auto;
+		form {
+			flex: 1;
+			background-color: #fdf6e3;
+			box-shadow: 0px 0px 3px #999;
+			padding: 30px;
+			border-radius: 5px;  
+			label {
+				.area-title {
+					width: 100px;
+					color: #073642;
+					font-weight: bold;
+					margin-bottom: 5px;
+				}
+				.area-input {
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					input {
+						padding: 7px;
+						font-size: 1rem;
+						border-radius: 3px;
+						border: 1px solid #ddd;
+					}
+					button {
+						border: 0;
+						outline: 0;
+						cursor: pointer;
+						padding: 7px;
+						width: 250px;
+						background-color: #073642;
+						color: #fdf6e3;
+						font-weight: bold;
+						font-size: 1.1rem;
+						border-radius: 3px;
+						&: hover {
+							background-color: #448698;
+						}
+					}
+					textarea {
+						height: 150px;
+						font-size: 1rem;
+						border: 1px solid #ddd;
+						resize: none;
+						padding: 5px;
+					}
+					input,textarea {
+						width: 100%;
+						outline: 0;
+						transition: all ease-out 0.4s;
+						margin-bottom: 30px;
+						&: focus {
+							border: 1px solid #333;
+						}
+					}
+				}
+			}
+		}
+	}
 	.projetos {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

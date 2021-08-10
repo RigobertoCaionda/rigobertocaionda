@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {HomePageArea} from './styled';
 import {PageTitle, PageContainer} from '../../components/mainComponents';
 import {Slide} from 'react-slideshow-image';
@@ -9,6 +9,13 @@ import hotelSamba2 from '../../images/hotelSamba2.PNG';
 import hotelSamba3 from '../../images/hotelSamba3.PNG';
 import hotelSamba4 from '../../images/hotelSamba4.PNG';
 const Page = () => {
+	const [email, setEmail] = useState('');
+	const [message, setMessage] = useState('');
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		alert("Funcionalidade indisponível no momento!");
+	}
 	return(
 		<PageContainer>
 			<HomePageArea>
@@ -220,7 +227,7 @@ const Page = () => {
 								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
-						
+
 						<div className="project-item">
 							<div className="project-image">
 								<Slide>
@@ -252,6 +259,36 @@ const Page = () => {
 								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
+					</div>
+				</div>
+
+				<div id="contacto-area">
+					<PageTitle>Contactos</PageTitle>
+					<div className="contacto">
+						<form onSubmit={handleSubmit}>
+							<label>
+								<div className="area-title">Email</div>
+								<div className="area-input">
+									<input type="text" placeholder="Digite seu email" value={email} 
+									onChange={e=>setEmail(e.target.value)}/>
+								</div>
+							</label>
+
+							<label>
+								<div className="area-title">Mensagem</div>
+								<div className="area-input">
+									<textarea placeholder="Digite sua mensagem" value={message}
+									onChange={e=>setMessage(e.target.value)}></textarea>
+								</div>
+							</label>
+
+							<label>
+								<div className="area-title"></div>
+								<div className="area-input">
+									<button type="submit">Enviar</button>
+								</div>
+							</label>
+						</form>
 					</div>
 				</div>
 			</HomePageArea>
