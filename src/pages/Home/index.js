@@ -95,8 +95,8 @@ const Page = () => {
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/Hotel-Samba-Clone/">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/Hotel-Samba-Clone"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
