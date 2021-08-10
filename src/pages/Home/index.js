@@ -4,6 +4,8 @@ import {PageTitle, PageContainer} from '../../components/mainComponents';
 import {Slide} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import my_pic from '../../images/rigobertoPicture.jpg';
+import cvpdf from '../../files/cv.pdf';
+import cvdocx from '../../files/cv.docx';
 import hotelSamba1 from '../../images/hotelSamba1.PNG';
 import hotelSamba2 from '../../images/hotelSamba2.PNG';
 import hotelSamba3 from '../../images/hotelSamba3.PNG';
@@ -54,12 +56,15 @@ const Page = () => {
 									<h3>Luanda - Angola</h3>
 								</div>
 								<div className="links">
-									<a href="https://github.com/RigobertoCaionda" target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Github</a>
-									<a href="https://linkedin.com/in/rigoberto-caionda-2578ab202" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i>LinkedIn</a>
+									<a href="https://github.com/RigobertoCaionda" target="_blank" rel="noreferrer">
+									<i className="fab fa-github"></i>Github</a>
+									<a href="https://linkedin.com/in/rigoberto-caionda-2578ab202" target="_blank" rel="noreferrer">
+									<i className="fab fa-linkedin"></i>LinkedIn</a>
 									<a href="mailto:rigobertocaionda98@gmail.com"><i className="fas fa-envelope"></i>E-mail</a>
 								</div>
 								<div className="download-documents">
-									Baixar CV: <a href="/">PDF</a>, <a href="/">Word</a>
+									Baixar CV: <a href={cvpdf} download="Rigoberto Caionda">PDF</a>, <a href={cvdocx} 
+									download="Rigoberto Caionda">Word</a>
 								</div>
 							</div>
 					</div>
