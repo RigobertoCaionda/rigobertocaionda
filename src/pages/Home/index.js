@@ -8,6 +8,23 @@ import hotelSamba1 from '../../images/hotelSamba1.PNG';
 import hotelSamba2 from '../../images/hotelSamba2.PNG';
 import hotelSamba3 from '../../images/hotelSamba3.PNG';
 import hotelSamba4 from '../../images/hotelSamba4.PNG';
+import tubidy1 from '../../images/tubidy1.PNG';
+import tubidy2 from '../../images/tubidy2.PNG';
+import cocacola1 from '../../images/cocacola1.PNG';
+import cocacola2 from '../../images/cocacola2.PNG';
+import cocacola3 from '../../images/cocacola3.PNG';
+import countriesApp1 from '../../images/countriesApp1.PNG';
+import countriesApp2 from '../../images/countriesApp3.PNG';
+import countriesApp3 from '../../images/countriesApp3.PNG';
+import vakinha1 from '../../images/vakinha1.PNG';
+import vakinha2 from '../../images/vakinha2.PNG';
+import vakinha3 from '../../images/vakinha3.PNG';
+import vakinha4 from '../../images/vakinha4.PNG';
+import vakinha5 from '../../images/vakinha5.PNG';
+import weatherApp1 from '../../images/weatherApp1.PNG';
+import weatherApp2 from '../../images/weatherApp2.PNG';
+import weatherApp3 from '../../images/weatherApp3.PNG';
+
 const Page = () => {
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
@@ -89,14 +106,16 @@ const Page = () => {
 								<h3>Hotel Samba</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="https://rigobertocaionda.github.io/Hotel-Samba-Clone/">Github Pages</a>
-								<a href="https://github.com/RigobertoCaionda/Hotel-Samba-Clone"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/Hotel-Samba-Clone/" 
+								target="_blank" rel="noreferrer">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/Hotel-Samba-Clone"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
@@ -104,31 +123,27 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src={tubidy1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src={tubidy2} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Hotel Samba</h3>
+								<h3>Tubidy</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
-								este projeto rodando, clique no link github Pages.</p>
+								<p>Projeto frontend criado com <i>ReactJS</i>. Se quiser ver
+								este projeto rodando, clique no link Vercel.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://tubidy-clone-rigobertocaionda.vercel.app"
+								target="_blank" rel="noreferrer">Vercel</a>
+								<a href="https://github.com/RigobertoCaionda/tubidy-clone"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
@@ -136,31 +151,31 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src={countriesApp1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
+										<img src={countriesApp2} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src={countriesApp3} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Hotel Samba</h3>
+								<h3>Countries App</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
-								este projeto rodando, clique no link github Pages.</p>
+								<p>Projeto criado  com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Countries App é um 
+								site onde você poderá encontrar diversas informações sobre os vários países do mundo.
+								Podemos ter informações como população, língua, moeda, etc. Se quiser ver este projeto rodando, clique no link github Pages.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/CountriesApp/"
+								target="_blank" rel="noreferrer">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/CountriesApp"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
@@ -168,31 +183,37 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src={vakinha1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
+										<img src={vakinha2} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
+										<img src={vakinha3} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src={vakinha4} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={vakinha5} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Hotel Samba</h3>
+								<h3>Vakinha</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. 
+								Este é um clone de um site de doações brasileiro. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/vakinhaClone/"
+								target="_blank" rel="noreferrer">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/vakinhaClone"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
@@ -200,31 +221,32 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src={weatherApp1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
+										<img src={weatherApp2} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src={weatherApp3} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Hotel Samba</h3>
+								<h3>Weather App</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
-								este projeto rodando, clique no link github Pages.</p>
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Weather App é um 
+								site onde você poderá ver informações sobre o tempo em qualquer cidade ou país do mundo.
+								Este site foi criado com a <i>API</i> da Open Weather.
+								Se quiser ver este projeto rodando, clique no link github Pages.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/WeatherApp/"
+								target="_blank" rel="noreferrer">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/WeatherApp"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 
@@ -232,31 +254,31 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src={cocacola1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
+										<img src={cocacola3} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src={cocacola2} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Hotel Samba</h3>
+								<h3>Coca cola</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. 
+								Este site é um clone da Coca-cola Portugal. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="hhtgf.com">Github Pages</a>
-								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+								<a href="https://rigobertocaionda.github.io/Cocacola/"
+								target="_blank" rel="noreferrer">Github Pages</a>
+								<a href="https://github.com/RigobertoCaionda/Cocacola"
+								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
 					</div>
