@@ -12,6 +12,65 @@ export const HomePageArea = styled.div`
 		line-height: 150px;
 		background-color: #fdf6e3;
 	}
+	.projetos {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 25px;
+		.project-item {
+			background-color: #fdf6e3;
+			padding-bottom: 25px;
+			.project-title h3 {
+				margin: 25px 0;
+				text-align: center;
+				color: #073642;
+			}
+			.project-links {
+				margin: 0 15px;
+				span {
+					color: #073642;
+					margin-right: 5px;
+				}
+				a {
+					display: inline-block;
+					text-decoration: none;
+					background-color: #4c4c4c;
+					color: #fff;
+					margin-right: 7px;
+					border-radius: 3px;
+					padding: 10px;
+					&: hover {
+						background-color: #999;
+					}
+					i {
+						margin-right: 3px;
+					}
+				}
+			}
+			.project-text {
+				margin: 0 15px;
+				margin-bottom: 15px;
+				p {
+					text-align: center;
+					color: #073642;
+					font-size: 0.9rem;
+					i {
+						color: #268bd2;
+						font-weight: bold;
+					}
+				}
+			}
+			.project-image {
+				width: 500px;
+				.each-slide img {
+					display: flex;
+					height: 300px;
+					align-items: center;
+					justify-content: center;
+					width: 100%;
+				}
+			}
+		}
+	}
 	#sobre-area {
 		.sobre {
 			display: flex;
@@ -68,7 +127,6 @@ export const HomePageArea = styled.div`
 						
 						padding: 7px;
 						.my_picture_inner {
-							background-color: green;
 							width: 100%;
 							height: 100%;
 							

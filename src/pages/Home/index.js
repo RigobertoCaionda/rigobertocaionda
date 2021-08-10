@@ -1,7 +1,13 @@
 import React from 'react';
 import {HomePageArea} from './styled';
 import {PageTitle, PageContainer} from '../../components/mainComponents';
+import {Slide} from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 import my_pic from '../../images/rigobertoPicture.jpg';
+import hotelSamba1 from '../../images/hotelSamba1.PNG';
+import hotelSamba2 from '../../images/hotelSamba2.PNG';
+import hotelSamba3 from '../../images/hotelSamba3.PNG';
+import hotelSamba4 from '../../images/hotelSamba4.PNG';
 const Page = () => {
 	return(
 		<PageContainer>
@@ -50,6 +56,202 @@ const Page = () => {
 					<PageTitle>Conhecimentos</PageTitle>
 					<div className="conhecimento">
 						HTML 5, CSS 3, Javascript ES6, ReactJS, GIT, Github 
+					</div>
+				</div>
+				<div id="projetos-area">
+					<PageTitle>Projetos</PageTitle>
+					<div className="projetos">
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
+
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
+
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
+
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
+
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
+						
+						<div className="project-item">
+							<div className="project-image">
+								<Slide>
+									<div className="each-slide">
+										<img src={hotelSamba2} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba1} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={hotelSamba4} alt="" />
+									</div>
+								</Slide>
+							</div>
+							<div className="project-title">
+								<h3>Hotel Samba</h3>
+							</div>
+							<div className="project-text">
+								<p>Projeto criado apenas com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								este projeto rodando, clique no link github Pages.</p>
+							</div>
+
+							<div className="project-links">
+								<span>Links:</span>
+								<a href="hhtgf.com">Github Pages</a>
+								<a href="fd"><i className="fab fa-github"></i>Frontend</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</HomePageArea>
