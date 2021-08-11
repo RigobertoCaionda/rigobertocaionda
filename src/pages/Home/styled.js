@@ -243,4 +243,57 @@ export const HomePageArea = styled.div`
 			}
 		}
 	}
+	@media(max-width: 600px) {
+		 #contacto-area {
+			
+		}
+		#projetos-area {
+			.projetos {
+				grid-template-columns: 1fr;
+				.project-item {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					.project-text {
+						p {
+							font-size: 1.1rem;
+						}
+					}
+					.project-image {
+					width: 320px;
+					margin-top: 50px;
+					}	
+				}
+				
+			}
+		}
+		#conhecimentos-area {
+			margin: 10px;
+			.conhecimento {
+				height: auto;
+				line-height: 100%;
+				padding: 50px 20px;
+			}
+		}
+		#sobre-area {
+			.sobre {
+				flex-direction: column;
+				align-items: flex-start;
+				.sobre-left-side {
+					width: 95%;
+					margin: 0 10px;
+				}
+				.sobre-right-side {
+					padding: 20px 10px;
+					margin-top: 20px;
+					margin-right: 10px;
+					margin-left: 10px;
+					flex: none;
+					p {
+						font-size: 1.2rem;
+					}
+				}
+			}
+		}
+	}
 `;

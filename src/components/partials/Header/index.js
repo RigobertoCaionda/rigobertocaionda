@@ -1,10 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {HeaderArea, Menu} from './styled';
 import {Link } from 'react-scroll';
 const Page = () => {
+	const [isVisible, setIsVisible] = useState('none');
+	const [opacity, setOpacity] = useState(0);
+	const handleMenuOpenerClick = () => {
+		if (isVisible === 'none'){
+			setOpacity(1);
+			setTimeout(()=>{
+				setIsVisible('block');
+			}, 300);
+		}else {
+			setOpacity(1);
+			setTimeout(()=>{
+				setIsVisible('none');
+			}, 300);
+		}
+		
+	}
 	return(
 			<HeaderArea>
-				<Menu>
+			<div className="menuOpener" onClick={handleMenuOpenerClick}><i className="fas fa-bars"></i></div>
+				<Menu visible={isVisible} opacidade={opacity}>
 					<nav>
 						<ul>
 							<li><Link to="sobre-area" activeClass="active" 

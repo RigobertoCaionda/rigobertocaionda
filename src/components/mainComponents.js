@@ -9,4 +9,7 @@ export const Template = styled.div``;
 export const PageContainer = styled.div`
 	width: 1000px;
 	margin: auto;
+	@media (max-width: 600px) {
+		width: auto;
+	}
 `;
