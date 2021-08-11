@@ -244,9 +244,6 @@ export const HomePageArea = styled.div`
 		}
 	}
 	@media(max-width: 600px) {
-		 #contacto-area {
-			
-		}
 		#projetos-area {
 			.projetos {
 				grid-template-columns: 1fr;
@@ -294,6 +291,14 @@ export const HomePageArea = styled.div`
 					}
 				}
 			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1023px) {
+		#projetos-area, #conhecimentos-area {
+			display: none;
+		}
+		#sobre-area {
+			
 		}
 	}
 `;
