@@ -294,10 +294,26 @@ export const HomePageArea = styled.div`
 		}
 	}
 	@media (min-width: 768px) and (max-width: 1023px) {
-		#projetos-area, #conhecimentos-area {
-			display: none;
+		#projetos-area{
+			.projetos {
+					.project-image {
+						width: 370px;
+						margin-top: 50px;
+					}	
+			}
+		}
+		#conhecimentos-area {
+			margin: 0 30px;
 		}
 		#sobre-area {
+			.sobre {
+				padding: 30px;
+					.sobre-right-side {
+					p {
+						font-size: 1.2rem;
+					}
+				}	
+			}
 			
 		}
 	}
