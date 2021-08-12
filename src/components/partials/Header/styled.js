@@ -5,7 +5,8 @@ export const HeaderArea = styled.header`
 	top: 0;
 	width: 100%;
 	min-height: 80px;
-	background-color: rgba(170, 170, 170, 0.9);
+	background-color: #2a928f;
+	opacity: 0.9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,11 +44,11 @@ export const Menu = styled.div`
 			margin-right: 50px;
 			&: hover {
 				a {
-					color: #000;
+					color: #264653;
 				}
 			}
 			a {
-				color: #fff;
+				color: #e9c46a;
 				text-decoration: none;
 				font-weight: 700;
 				cursor: pointer;

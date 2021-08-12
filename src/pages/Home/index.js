@@ -111,7 +111,7 @@ const Page = () => {
 								<h3>Hotel Samba</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Se quiser ver
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>
 
@@ -170,7 +170,7 @@ const Page = () => {
 								<h3>Countries App</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado  com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Countries App é um 
+								<p>Projeto criado  com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. Countries App é um 
 								site onde você poderá encontrar diversas informações sobre os vários países do mundo.
 								Podemos ter informações como população, língua, moeda, etc. Se quiser ver este projeto rodando, clique no link github Pages.</p>
 							</div>
@@ -208,7 +208,7 @@ const Page = () => {
 								<h3>Vakinha</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. 
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. 
 								Este é um clone de um site de doações brasileiro. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>
@@ -240,7 +240,7 @@ const Page = () => {
 								<h3>Weather App</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. Weather App é um 
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. Weather App é um 
 								site onde você poderá ver informações sobre o tempo em qualquer cidade ou país do mundo.
 								Este site foi criado com a <i>API</i> da Open Weather.
 								Se quiser ver este projeto rodando, clique no link github Pages.</p>
@@ -273,7 +273,7 @@ const Page = () => {
 								<h3>Coca cola</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascrpit</i> puro. 
+								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. 
 								Este site é um clone da Coca-cola Portugal. Se quiser ver
 								este projeto rodando, clique no link github Pages.</p>
 							</div>

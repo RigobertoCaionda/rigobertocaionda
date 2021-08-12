@@ -5,12 +5,12 @@ export const HomePageArea = styled.div`
 	.conhecimento {
 		height: 150px;
 		border-radius: 10px;
-		color: #073642;
+		color: #264653;
 		font-weight: bold;
 		font-size: 1.6rem;
 		text-align: center;
 		line-height: 150px;
-		background-color: #fdf6e3;
+		background-color: #e76f51;
 	}
 	.contacto {
 		display: flex;
@@ -18,14 +18,14 @@ export const HomePageArea = styled.div`
 		margin: auto;
 		form {
 			flex: 1;
-			background-color: #fdf6e3;
-			box-shadow: 0px 0px 3px #999;
+			background-color: #e76f51;
+			box-shadow: 0px 0px 3px #2a928f;
 			padding: 30px;
 			border-radius: 5px;  
 			label {
 				.area-title {
 					width: 100px;
-					color: #073642;
+					color: #264653;
 					font-weight: bold;
 					margin-bottom: 5px;
 				}
@@ -45,13 +45,13 @@ export const HomePageArea = styled.div`
 						cursor: pointer;
 						padding: 7px;
 						width: 250px;
-						background-color: #073642;
+						background-color: #2a928f;
 						color: #fdf6e3;
 						font-weight: bold;
 						font-size: 1.1rem;
 						border-radius: 3px;
 						&: hover {
-							background-color: #448698;
+							background-color: #073642;
 						}
 					}
 					textarea {
@@ -67,7 +67,7 @@ export const HomePageArea = styled.div`
 						transition: all ease-out 0.4s;
 						margin-bottom: 30px;
 						&: focus {
-							border: 1px solid #333;
+							border: 1px solid #264653;
 						}
 					}
 				}
@@ -79,29 +79,29 @@ export const HomePageArea = styled.div`
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 25px;
 		.project-item {
-			background-color: #fdf6e3;
+			background-color: #e76f51;
 			padding-bottom: 25px;
 			.project-title h3 {
 				margin: 25px 0;
 				text-align: center;
-				color: #073642;
+				color: #264653;
 			}
 			.project-links {
 				margin: 0 15px;
 				span {
-					color: #073642;
+					color: #264653;
 					margin-right: 5px;
 				}
 				a {
 					display: inline-block;
 					text-decoration: none;
-					background-color: #4c4c4c;
+					background-color: #2a928f;
 					color: #fff;
 					margin-right: 7px;
 					border-radius: 3px;
 					padding: 10px;
 					&: hover {
-						background-color: #999;
+						background-color: #073642;
 					}
 					i {
 						margin-right: 3px;
@@ -113,10 +113,10 @@ export const HomePageArea = styled.div`
 				margin-bottom: 15px;
 				p {
 					text-align: center;
-					color: #073642;
+					color: #264653;
 					font-size: 0.9rem;
 					i {
-						color: #268bd2;
+						color: #264653;
 						font-weight: bold;
 					}
 				}
@@ -144,10 +144,11 @@ export const HomePageArea = styled.div`
 					padding: 20px 10px;
 					.download-documents {
 						text-align: center;
+						color: #264653;
 						a {
 							font-weight: bold;
 							text-decoration: none;
-							color: #268bd2;
+							color: #264653;
 							&: hover {
 								color: #073642;
 							}
@@ -159,10 +160,10 @@ export const HomePageArea = styled.div`
 						align-items: center;
 						a {
 							text-decoration: none;
-							background-color: #586e75;
+							background-color: #2a928f;
 							padding: 5px;
 							border-radius: 3px;
-							color: #fff;
+							color: #e9c46a;
 							margin-bottom: 5px;
 							i {
 								margin-right: 5px;
@@ -176,7 +177,7 @@ export const HomePageArea = styled.div`
 				}
 				.cover-color {
 					height: 120px;
-					background-color: #073642;
+					background-color: #f4a261;
 					border-top-left-radius: 15px;
 					border-top-right-radius: 15px;
 
@@ -209,23 +210,23 @@ export const HomePageArea = styled.div`
 					margin-top: 80px;
 					h1 {
 						padding: 0 0 8px 0;
-						color: #073642; 
+						color: #264653; 
 					}
 					h2, h3 {
-						color: #073642;
+						color: #264653;
 					}
 					h3 {
-						color: #073642;
+						color: #264653;
 						margin-bottom: 10px;
 						font-weight: normal;
 					}
 				}
-				background-color: #fdf6e3;
+				background-color: #e76f51;
 				margin-right: 25px;
 				border-radius: 15px;
 			}
 			.sobre-right-side {
-				background-color: #fdf6e3;
+				background-color: #e76f51;
 				flex: 1;
 				display: flex;
 				justify-content: center;
@@ -235,7 +236,7 @@ export const HomePageArea = styled.div`
 				padding: 50px 20px;
 				p {
 					font-size: 1.4rem;
-					color: #073642;
+					color: #264653;
 					text-align: center;
 					margin-bottom: 25px;
 					

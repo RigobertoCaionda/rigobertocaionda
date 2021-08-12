@@ -6,6 +6,6 @@ export const FooterArea = styled.footer`
 	align-items: center;
 	font-size: 0.9rem;
 	height: 80px;
-	background-color: #bbb;
-	color: #fff;
+	background-color: #2a928f;
+	color: #e9c46a;
 `;

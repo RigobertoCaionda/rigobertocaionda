@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const PageTitle = styled.h1`
 	text-align: center;
 	padding: 30px 0;
-	color: #fff;
+	color: #264653;
 `;
 export const Template = styled.div``;
 export const PageContainer = styled.div`
