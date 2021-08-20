@@ -15,9 +15,10 @@ import tubidy2 from '../../images/tubidy2.PNG';
 import cocacola1 from '../../images/cocacola1.PNG';
 import cocacola2 from '../../images/cocacola2.PNG';
 import cocacola3 from '../../images/cocacola3.PNG';
-import countriesApp1 from '../../images/countriesApp1.PNG';
-import countriesApp2 from '../../images/countriesApp3.PNG';
-import countriesApp3 from '../../images/countriesApp3.PNG';
+import instagram1 from '../../images/instagram1.PNG';
+import instagram2 from '../../images/instagram2.PNG';
+import instagram3 from '../../images/instagram3.PNG';
+import instagram4 from '../../images/instagram4.PNG';
 import vakinha1 from '../../images/vakinha1.PNG';
 import vakinha2 from '../../images/vakinha2.PNG';
 import vakinha3 from '../../images/vakinha3.PNG';
@@ -84,7 +85,7 @@ const Page = () => {
 				<div id="conhecimentos-area">
 					<PageTitle>Conhecimentos</PageTitle>
 					<div className="conhecimento">
-						HTML 5, CSS 3, Javascript ES6, ReactJS, GIT, Github 
+						HTML 5, CSS 3, Javascript ES6, ReactJS, GIT 
 					</div>
 				</div>
 				<div id="projetos-area">
@@ -156,30 +157,33 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={countriesApp1} alt="" />
+										<img src={instagram1} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={countriesApp2} alt="" />
+										<img src={instagram2} alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={countriesApp3} alt="" />
+										<img src={instagram3} alt="" />
+									</div>
+									<div className="each-slide">
+										<img src={instagram4} alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Countries App</h3>
+								<h3>Instagram Clone</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado  com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. Countries App é um 
-								site onde você poderá encontrar diversas informações sobre os vários países do mundo.
-								Podemos ter informações como população, língua, moeda, etc. Se quiser ver este projeto rodando, clique no link github Pages.</p>
+								<p>Projeto criado  com <i>ReactJS</i>. Este projeto é um clone do Instagram, onde eu pude praticar muita coisa boa de React
+								como criação de componentes, criação de slides no React e muitas outras coisas.
+								Se quiser ver este projeto rodando, clique no link Vercel.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="https://rigobertocaionda.github.io/CountriesApp/"
-								target="_blank" rel="noreferrer">Github Pages</a>
-								<a href="https://github.com/RigobertoCaionda/CountriesApp"
+								<a href="https://instagram-clone-git-master-rigobertocaionda.vercel.app"
+								target="_blank" rel="noreferrer">Vercel</a>
+								<a href="https://github.com/RigobertoCaionda/instagram-clone"
 								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>
