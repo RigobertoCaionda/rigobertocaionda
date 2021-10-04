@@ -1,8 +1,7 @@
-import React from 'react';
 import {FooterArea} from './styled';
 const Page = () => {
-	let d = new Date();
-	let year = d.getFullYear();
+		const d = new Date();
+		const year = d.getFullYear();
 	return(
 			<FooterArea>
 				Rigoberto Caionda - {year}
