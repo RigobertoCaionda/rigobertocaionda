@@ -1,32 +1,8 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {HomePageArea} from './styled';
 import {PageTitle, PageContainer} from '../../components/mainComponents';
 import {Slide} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import my_pic from '../../images/rigobertoPicture.jpg';
-import cvpdf from '../../files/cv.pdf';
-import cvdocx from '../../files/cv.docx';
-import hotelSamba1 from '../../images/hotelSamba1.PNG';
-import hotelSamba2 from '../../images/hotelSamba2.PNG';
-import hotelSamba3 from '../../images/hotelSamba3.PNG';
-import hotelSamba4 from '../../images/hotelSamba4.PNG';
-import tubidy1 from '../../images/tubidy1.PNG';
-import tubidy2 from '../../images/tubidy2.PNG';
-import cocacola1 from '../../images/cocacola1.PNG';
-import cocacola2 from '../../images/cocacola2.PNG';
-import cocacola3 from '../../images/cocacola3.PNG';
-import instagram1 from '../../images/instagram1.PNG';
-import instagram2 from '../../images/instagram2.PNG';
-import instagram3 from '../../images/instagram3.PNG';
-import instagram4 from '../../images/instagram4.PNG';
-import vakinha1 from '../../images/vakinha1.PNG';
-import vakinha2 from '../../images/vakinha2.PNG';
-import vakinha3 from '../../images/vakinha3.PNG';
-import vakinha4 from '../../images/vakinha4.PNG';
-import vakinha5 from '../../images/vakinha5.PNG';
-import weatherApp1 from '../../images/weatherApp1.PNG';
-import weatherApp2 from '../../images/weatherApp2.PNG';
-import weatherApp3 from '../../images/weatherApp3.PNG';
 
 const Page = () => {
 	const [email, setEmail] = useState('');
@@ -39,6 +15,7 @@ const Page = () => {
 	return(
 		<PageContainer>
 			<HomePageArea>
+			
 				<div id="sobre-area">
 				<PageTitle>Sobre mim</PageTitle>
 				<div className="sobre">
@@ -46,7 +23,7 @@ const Page = () => {
 						<div className="cover-color">
 							<div className="my_picture">
 								<div className="my_picture_inner">
-									<img src={my_pic} alt="Foto de Perfil" />
+									<img src="/assets/rigobertoPicture.jpg" alt="Foto de Perfil" />
 								</div>
 							</div>
 						</div>
@@ -64,7 +41,7 @@ const Page = () => {
 									<a href="mailto:rigobertocaionda98@gmail.com"><i className="fas fa-envelope"></i>E-mail</a>
 								</div>
 								<div className="download-documents">
-									Baixar CV: <a href={cvpdf} download="Rigoberto Caionda">PDF</a>, <a href={cvdocx} 
+									Baixar CV: <a href="/assets/cv.pdf" download="Rigoberto Caionda">PDF</a>, <a href="/assets/cv.docx" 
 									download="Rigoberto Caionda">Word</a>
 								</div>
 							</div>
@@ -82,6 +59,7 @@ const Page = () => {
 					</div>
 				</div>
 				</div>
+
 				<div id="conhecimentos-area">
 					<PageTitle>Conhecimentos</PageTitle>
 					<div className="conhecimento">
@@ -95,16 +73,16 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={hotelSamba2} alt="" />
+										<img src="/assets/hotelSamba2.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba1} alt="" />
+										<img src="/assets/hotelSamba1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba3} alt="" />
+										<img src="/assets/hotelSamba3.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={hotelSamba4} alt="" />
+										<img src="/assets/hotelSamba4.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
@@ -129,10 +107,10 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={tubidy1} alt="" />
+										<img src="/assets/tubidy1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={tubidy2} alt="" />
+										<img src="/assets/tubidy2.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
@@ -157,16 +135,16 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={instagram1} alt="" />
+										<img src="/assets/instagram1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={instagram2} alt="" />
+										<img src="/assets/instagram2.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={instagram3} alt="" />
+										<img src="/assets/instagram3.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={instagram4} alt="" />
+										<img src="/assets/instagram4.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
@@ -192,19 +170,19 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={vakinha1} alt="" />
+										<img src="/assets/vakinha1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={vakinha2} alt="" />
+										<img src="/assets/vakinha2.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={vakinha3} alt="" />
+										<img src="/assets/vakinha3.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={vakinha4} alt="" />
+										<img src="/assets/vakinha4.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={vakinha5} alt="" />
+										<img src="/assets/vakinha5.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
@@ -230,13 +208,13 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={weatherApp1} alt="" />
+										<img src="/assets/weatherApp1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={weatherApp2} alt="" />
+										<img src="/assets/weatherApp2.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={weatherApp3} alt="" />
+										<img src="/assets/weatherApp3.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
@@ -263,30 +241,30 @@ const Page = () => {
 							<div className="project-image">
 								<Slide>
 									<div className="each-slide">
-										<img src={cocacola1} alt="" />
+										<img src="/assets/apiki1.PNG" alt="" />
 									</div>
 									<div className="each-slide">
-										<img src={cocacola3} alt="" />
-									</div>
-									<div className="each-slide">
-										<img src={cocacola2} alt="" />
+										<img src="/assets/apiki2.PNG" alt="" />
 									</div>
 								</Slide>
 							</div>
 							<div className="project-title">
-								<h3>Coca cola</h3>
+								<h3>Apiki</h3>
 							</div>
 							<div className="project-text">
-								<p>Projeto criado com <i>HTML</i>, <i>CSS</i> e <i>Javascript</i> puro. 
-								Este site é um clone da Coca-cola Portugal. Se quiser ver
-								este projeto rodando, clique no link github Pages.</p>
+								<p>Projeto criado com <i>ReactJS</i>. 
+								Este site é um desafio do front challenge que consiste na criação desta 
+								página da Apiki. Apiki é uma empresa de criação de sites em wordpress e 
+								de hospedagem.
+								Se quiser ver este projeto rodando, clique no link Vercel.</p>
 							</div>
 
 							<div className="project-links">
 								<span>Links:</span>
-								<a href="https://rigobertocaionda.github.io/Cocacola/"
-								target="_blank" rel="noreferrer">Github Pages</a>
-								<a href="https://github.com/RigobertoCaionda/Cocacola"
+								<a href="https://apiki-git-master-rigobertocaionda.vercel.app/"
+								target="_blank" rel="noreferrer">Vercel</a>
+
+								<a href="https://github.com/RigobertoCaionda/apiki"
 								target="_blank" rel="noreferrer"><i className="fab fa-github"></i>Frontend</a>
 							</div>
 						</div>

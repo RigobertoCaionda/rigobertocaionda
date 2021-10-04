@@ -1,28 +1,31 @@
 import React, {useState} from 'react';
-import {HeaderArea, Menu} from './styled';
+import {HeaderArea, Menu, Nav} from './styled';
 import {Link } from 'react-scroll';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 const Page = () => {
-	const [isVisible, setIsVisible] = useState('none');
-	const [opacity, setOpacity] = useState(0);
+	const [isVisible, setIsVisible] = useState(false);
 	const handleMenuOpenerClick = () => {
-		if (isVisible === 'none'){
-			setOpacity(1);
-			setTimeout(()=>{
-				setIsVisible('block');
-			}, 300);
-		}else {
-			setOpacity(1);
-			setTimeout(()=>{
-				setIsVisible('none');
-			}, 300);
-		}
-		
+				setIsVisible(true);
+	}
+	const handleMenuCloserClick = () => {
+		setIsVisible(false);
 	}
 	return(
 			<HeaderArea>
-			<div className="menuOpener" onClick={handleMenuOpenerClick}><i className="fas fa-bars"></i></div>
-				<Menu visible={isVisible} opacidade={opacity}>
-					<nav>
+			{!isVisible && 
+				<div className="menuOpener" onClick={handleMenuOpenerClick}><MenuIcon 
+					style={{color: '#fff', fontSize: '2rem'}}/>
+				</div>
+			}
+			{isVisible && 
+				<div className="menuCloser" onClick={handleMenuCloserClick}><CloseIcon 
+					style={{color: '#fff', fontSize: '2rem'}}/>
+				</div>
+			}
+
+				<Menu visible={isVisible}>
+					<Nav visible={isVisible}>
 						<ul>
 							<li><Link to="sobre-area" activeClass="active" 
 								spy={true} smooth={true} offset={-70} duration={500}>Sobre</Link></li>
@@ -33,7 +36,7 @@ const Page = () => {
 							<li><Link to="contacto-area" activeClass="active" 
 								spy={true} smooth={true} offset={-70} duration={500}>Contacto</Link></li>
 						</ul>
-					</nav>
+					</Nav>
 
 				</Menu>
 			</HeaderArea>
