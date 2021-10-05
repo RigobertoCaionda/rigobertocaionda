@@ -55,7 +55,8 @@ export const Menu = styled.div`
 					padding: 5px 0;
 					color: #e9c46a;
 					text-decoration: none;
-					font-weight: 700;
+					text-transform: uppercase;
+					font-size: 0.9rem;
 					cursor: pointer;
 				}
 				.active {
@@ -76,10 +77,10 @@ export const Menu = styled.div`
 			width: 100%;
 		nav ul {
 			flex-direction: column;
-			padding-bottom: 20px;
-			padding-top: 40px;
+			padding: 20px 0;
 			li {
 				margin-right: 0;
+				margin-bottom: 10px;
 			}
 		}	
 		}

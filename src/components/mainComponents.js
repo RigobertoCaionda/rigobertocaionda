@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const PageTitle = styled.h1`
 	text-align: center;
-	padding: 30px 0;
+	padding: 15px 0;
 	color: #264653;
 `;
 export const Template = styled.div``;

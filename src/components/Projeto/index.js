@@ -6,7 +6,7 @@ const Page = ({data}) => {
 	return (
 				<ProjetoItem className="project-item">
 					<div className="project-image">
-						<Slide>
+						<Slide indicators={true}>
 							{data.images.map((item, key)=>(
 								<div className="each-slide" key={key}>
 									<img src={data.images[key]} alt="" />

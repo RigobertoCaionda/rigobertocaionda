@@ -15,7 +15,7 @@ const Page = () => {
 				linksName: ['Vercel', 'Frontend'],
 				linksURL: ['https://apiki-git-master-rigobertocaionda.vercel.app/', 
 					'https://github.com/RigobertoCaionda/apiki'],
-				images: ['/assets/apiki1.PNG','/assets/apiki2.PNG']
+				images: ['/assets/apiki1.PNG', '/assets/apiki2.PNG']
 			},
 			{
 				title: 'Tubidy',
