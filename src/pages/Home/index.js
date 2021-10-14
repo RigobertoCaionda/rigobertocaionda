@@ -58,7 +58,7 @@ const Page = () => {
 			},
 			{
 				title: 'Weather App',
-				description: "Projeto criado com HTML, CSS e Javascript puro. Weather App é um site onde você poderá ver informações sobre o tempo em qualquer cidade ou país do mundo. Este site foi criado com a <i>API</i> da Open Weather. Se quiser ver este projeto rodando, clique no link github Pages.",
+				description: "Projeto criado com HTML, CSS e Javascript puro. Weather App é um site onde você poderá ver informações sobre o tempo em qualquer cidade ou país do mundo. Este site foi criado com a API da Open Weather. Se quiser ver este projeto rodando, clique no link github Pages.",
 				techs: 'HTML, CSS e Javascript puro',
 				linksName: ['Github Pages', 'Frontend'],
 				linksURL: ['https://rigobertocaionda.github.io/WeatherApp/', 

@@ -22,7 +22,6 @@ const Page = ({data}) => {
 						</div>
 
 						<div className="project-links">
-							<span>Links:</span>
 							<a href={data.linksURL[0]} target="_blank" rel="noreferrer">{data.linksName[0]}</a>
 							<a href={data.linksURL[1]} target="_blank" rel="noreferrer">
 								<GitHubIcon style={{marginRight: 3, fontSize: '1rem'}}/>{data.linksName[1]}</a>

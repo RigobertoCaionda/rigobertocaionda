@@ -10,7 +10,10 @@ export const ProjetoItem = styled.div`
 				color: #000;
 			}
 			.project-links {
-				margin: 0 15px;
+				margin: 0 80px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
 				a {
 					display: inline-block;
 					text-decoration: none;
@@ -53,6 +56,11 @@ export const ProjetoItem = styled.div`
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+				.project-links {
+						margin: 0;
+						padding: 0 40px;
+						width: 100%;
+					}
 				.project-text {
 					p {
 						font-size: 1.1rem;
