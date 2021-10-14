@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 export const ContactoArea = styled.div`
 	& {
+		margin-top: 40px;
 		.contacto {
 			display: flex;
 			max-width: 700px;
 			margin: auto;
 		form {
 			flex: 1;
-			background-color: #e76f51;
-			box-shadow: 0px 0px 3px #2a928f;
+			background-color: #fff;
 			padding: 30px;
-			border-radius: 5px;  
+			border-radius: 10px;  
 			label {
 				.area-title {
 					width: 100px;
-					color: #264653;
+					color: #000;
 					font-weight: bold;
 					margin-bottom: 5px;
 				}
@@ -34,13 +34,13 @@ export const ContactoArea = styled.div`
 						cursor: pointer;
 						padding: 7px;
 						width: 250px;
-						background-color: #2a928f;
-						color: #fdf6e3;
+						background-color: #000;
+						color: #fff;
 						font-weight: bold;
 						font-size: 1.1rem;
-						border-radius: 3px;
+						border-radius: 5px;
 						&: hover {
-							background-color: #073642;
+							background-color: rgba(0, 0, 0, .7);
 						}
 					}
 					textarea {
@@ -53,10 +53,10 @@ export const ContactoArea = styled.div`
 					input,textarea {
 						width: 100%;
 						outline: 0;
-						transition: all ease-out 0.4s;
+						transition: all ease 0.4s;
 						margin-bottom: 30px;
 						&: focus {
-							border: 1px solid #264653;
+							border: 1px solid #1c94d9;
 						}
 					}
 				}

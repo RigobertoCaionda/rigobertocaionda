@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {HeaderArea, Menu, Nav} from './styled';
 import {Link } from 'react-scroll';
 import MenuIcon from '@material-ui/icons/Menu';

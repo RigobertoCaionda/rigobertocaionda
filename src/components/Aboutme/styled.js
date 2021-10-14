@@ -10,13 +10,13 @@ export const Sobre = styled.div`
 					padding: 20px 10px;
 					.download-documents {
 						text-align: center;
-						color: #264653;
+						color: #000;
 						a {
 							font-weight: bold;
 							text-decoration: none;
-							color: #264653;
+							color: #000;
 							&: hover {
-								color: #073642;
+								color: rgba(0,0,0,.7);
 							}
 						}
 					}
@@ -26,20 +26,20 @@ export const Sobre = styled.div`
 						align-items: center;
 						a {
 							text-decoration: none;
-							background-color: #2a928f;
+							background-color: #000;
 							padding: 5px;
 							border-radius: 3px;
-							color: #e9c46a;
+							color: #fff;
 							margin-bottom: 5px;
 							&: hover {
-								background-color: #073642;
+								background-color: rgba(0,0,0,.7);
 							}
 						}
 					}
 				}
 				.cover-color {
 					height: 120px;
-					background-color: #f4a261;
+					background-color: #00A2FF;
 					border-top-left-radius: 15px;
 					border-top-right-radius: 15px;
 
@@ -72,23 +72,23 @@ export const Sobre = styled.div`
 					margin-top: 80px;
 					h1 {
 						padding: 0 0 8px 0;
-						color: #264653; 
+						color: #fff; 
 					}
 					h2, h3 {
-						color: #264653;
+						color: #fff;
 					}
 					h3 {
-						color: #264653;
+						color: #fff;
 						margin-bottom: 10px;
 						font-weight: normal;
 					}
 				}
-				background-color: #e76f51;
+				background-color: #1C94D9;
 				margin-right: 25px;
 				border-radius: 15px;
 			}
 			.sobre-right-side {
-				background-color: #e76f51;
+				background-color: #fff;
 				flex: 1;
 				display: flex;
 				justify-content: center;
@@ -98,7 +98,7 @@ export const Sobre = styled.div`
 				padding: 50px 20px;
 				p {
 					font-size: 1.4rem;
-					color: #264653;
+					color: #000;
 					text-align: center;
 					margin-bottom: 25px;
 					

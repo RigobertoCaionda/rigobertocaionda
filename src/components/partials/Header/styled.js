@@ -5,8 +5,7 @@ export const HeaderArea = styled.header`
 	top: 0;
 	width: 100%;
 	min-height: 80px;
-	background-color: #2a928f;
-	opacity: 0.9;
+	background-color: #1C94D9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -48,12 +47,16 @@ export const Menu = styled.div`
 				margin-right: 50px;
 				&: hover {
 					a {
-						color: #264653;
+						border-radius: 5px;
+						padding-left: 5px;
+						padding-right: 5px;
+						background-color: #fff;
+						color: #000;
 					}
 				}
 				a {
 					padding: 5px 0;
-					color: #e9c46a;
+					color: #fff;
 					text-decoration: none;
 					text-transform: uppercase;
 					font-size: 0.9rem;
@@ -63,7 +66,8 @@ export const Menu = styled.div`
 					border-radius: 5px;
 					padding-left: 5px;
 					padding-right: 5px;
-					background-color: #eee;
+					background-color: #fff;
+					color: #000;
 				}
 			}
 		}

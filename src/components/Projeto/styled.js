@@ -1,25 +1,26 @@
 import styled from 'styled-components';
 export const ProjetoItem = styled.div`
 		& {
-			background-color: #e76f51;
+			background-color: #fff;
 			padding-bottom: 25px;
+			border-radius: 15px;
 			.project-title h3 {
 				margin: 25px 0;
 				text-align: center;
-				color: #264653;
+				color: #000;
 			}
 			.project-links {
 				margin: 0 15px;
 				a {
 					display: inline-block;
 					text-decoration: none;
-					background-color: #2a928f;
+					background-color: #000;
 					color: #fff;
 					margin-right: 7px;
 					border-radius: 3px;
 					padding: 10px;
 					&: hover {
-						background-color: #073642;
+						background-color: rgba(0,0,0,.7);
 					}
 				}
 			}
@@ -28,16 +29,13 @@ export const ProjetoItem = styled.div`
 				margin-bottom: 15px;
 				p {
 					text-align: center;
-					color: #264653;
+					color: #000;
 					font-size: 0.9rem;
-					i {
-						color: #264653;
-						font-weight: bold;
-					}
 				}
 			}
 			.project-image {
 				width: 500px;
+				border-bottom: 3px solid #000;
 				.each-slide img {
 					display: flex;
 					height: 300px;
@@ -45,6 +43,8 @@ export const ProjetoItem = styled.div`
 					justify-content: center;
 					width: 100%;
 					object-fit: cover;
+					border-top-left-radius: 15px;
+					border-top-right-radius: 15px;
 				}
 			}
 		}
