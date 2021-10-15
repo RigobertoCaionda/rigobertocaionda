@@ -50,15 +50,15 @@ export const Sobre = styled.div`
 						left: 30%;
 						width: 150px;
 						height: 150px;
-						
+						border-radius: 50%;
 						padding: 7px;
 						.my_picture_inner {
 							width: 100%;
 							height: 100%;
-							
 							img {
 								width: 100%;
 								object-fit: cover;
+								border-radius: 50%;
 							}
 						}
 				}
