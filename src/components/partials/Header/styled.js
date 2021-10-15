@@ -5,7 +5,7 @@ export const HeaderArea = styled.header`
 	top: 0;
 	width: 100%;
 	min-height: 80px;
-	background-color: #1C94D9;
+	background-color: #01004c;
 	display: flex;
 	justify-content: center;
 	align-items: center;
