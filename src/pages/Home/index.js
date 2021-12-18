@@ -9,6 +9,15 @@ import Projeto from '../../components/Projeto';
 const Page = () => {
 	const [TotProjects] = useState([
 			{
+				title: 'Lyrics',
+				description: "Projeto criado com ReactJS, TypeScript, postgreSQL e Node.js. Lyrics é um site onde você poderá se cadastrar, fazer login e ver as letras das músicas que gosta. Se quiser ver este projeto rodando, clique no link Vercel.",
+				techs: 'ReactJS, TypeScript, postgreSQL e Node.js',
+				linksName: ['Vercel', 'Frontend'],
+				linksURL: ['https://lyrics-kappa.vercel.app/', 
+					'https://github.com/RigobertoCaionda/lyrics'],
+				images: ['/assets/lyrics1.PNG','/assets/lyrics2.PNG','/assets/lyrics3.PNG', '/assets/lyrics4.PNG']
+			},
+			{
 				title: 'Apiki',
 				description: "Projeto criado com ReactJS. Este site é um desafio do front challenge que consiste na criação desta página da Apiki. Apiki é uma empresa de criação de sites em wordpress e de hospedagem. Se quiser ver este projeto rodando, clique no link Vercel.",
 				techs: 'ReactJS',
@@ -27,16 +36,6 @@ const Page = () => {
 				images: ['/assets/tubidy1.PNG','/assets/tubidy2.PNG']
 			},
 			{
-				title: 'Hotel Samba',
-				description: "Projeto criado com HTML, CSS e Javascript puro. Se quiser ver este projeto rodando, clique no link github Pages.",
-				techs: 'HTML, CSS e Javascript puro',
-				linksName: ['Github Pages', 'Frontend'],
-				linksURL: ['https://rigobertocaionda.github.io/Hotel-Samba-Clone/', 
-					'https://github.com/RigobertoCaionda/Hotel-Samba-Clone'],
-				images: ['/assets/hotelSamba2.PNG','/assets/hotelSamba1.PNG','/assets/hotelSamba3.PNG',
-					'/assets/hotelSamba4.PNG']
-			},
-			{
 				title: 'Instagram Clone',
 				description: "Projeto criado  com ReactJS. Este projeto é um clone do Instagram, onde eu pude praticar muita coisa boa de React como criação de componentes, criação de slides no React e muitas outras coisas. Se quiser ver este projeto rodando, clique no link Vercel.",
 				techs: 'ReactJS',
@@ -47,6 +46,16 @@ const Page = () => {
 					'/assets/instagram4.PNG']
 			},
 			{
+				title: 'Hotel Samba',
+				description: "Projeto criado com HTML, CSS e Javascript puro. Se quiser ver este projeto rodando, clique no link github Pages.",
+				techs: 'HTML, CSS e Javascript puro',
+				linksName: ['Github Pages', 'Frontend'],
+				linksURL: ['https://rigobertocaionda.github.io/Hotel-Samba-Clone/', 
+					'https://github.com/RigobertoCaionda/Hotel-Samba-Clone'],
+				images: ['/assets/hotelSamba2.PNG','/assets/hotelSamba1.PNG','/assets/hotelSamba3.PNG',
+					'/assets/hotelSamba4.PNG']
+			},
+			{
 				title: 'Vakinha',
 				description: "Projeto criado com HTML, CSS e Javascript puro. Este é um clone de um site de doações brasileiro. Se quiser ver este projeto rodando, clique no link github Pages.",
 				techs: 'HTML, CSS e Javascript puro',
@@ -55,16 +64,8 @@ const Page = () => {
 					'https://github.com/RigobertoCaionda/vakinhaClone'],
 				images: ['/assets/vakinha1.PNG','/assets/vakinha2.PNG','/assets/vakinha3.PNG',
 					'/assets/vakinha4.PNG', '/assets/vakinha5.PNG']
-			},
-			{
-				title: 'Weather App',
-				description: "Projeto criado com HTML, CSS e Javascript puro. Weather App é um site onde você poderá ver informações sobre o tempo em qualquer cidade ou país do mundo. Este site foi criado com a API da Open Weather. Se quiser ver este projeto rodando, clique no link github Pages.",
-				techs: 'HTML, CSS e Javascript puro',
-				linksName: ['Github Pages', 'Frontend'],
-				linksURL: ['https://rigobertocaionda.github.io/WeatherApp/', 
-					'https://github.com/RigobertoCaionda/WeatherApp'],
-				images: ['/assets/weatherApp1.PNG','/assets/weatherApp2.PNG','/assets/weatherApp3.PNG']
 			}
+			
 		]);
 	return(
 		<PageContainer>
