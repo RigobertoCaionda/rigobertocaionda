@@ -6,7 +6,7 @@ export const ConhecimentosArea = styled.div`
 			border-radius: 10px;
 			color: #000;
 			font-weight: bold;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			text-align: center;
 			line-height: 150px;
 			background-color: #fff;

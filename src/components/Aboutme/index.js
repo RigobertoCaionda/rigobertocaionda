@@ -43,7 +43,7 @@ const Page = () => {
 					</div>
 
 					<div className="sobre-right-side">
-							<p>Sou desenvolvedor Front end Júnior, com bacharelato concluído em engenharia 
+							<p>Sou desenvolvedor Full Stack Júnior (React.js + Node.js), com bacharelato concluído em engenharia 
 							Informática. 
 							Sou uma pessoa completamente apaixonada por tecnologia, principalmente pela 
 							área da 
