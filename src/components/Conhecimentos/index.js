@@ -5,7 +5,7 @@ const Page = () => {
 			<ConhecimentosArea id="conhecimentos-area">
 					<PageTitle>Conhecimentos</PageTitle>
 					<div className="conhecimento">
-						HTML 5, CSS 3, Javascript ES6, ReactJS, GIT, TypeScript, Node.js, Mongodb, MYSQL
+						Javascript ES6, Angular, ReactJS, GIT, TypeScript, Node.js, AdonisJs, Mongodb, MYSQL
 					</div>
 				</ConhecimentosArea>
 		);
