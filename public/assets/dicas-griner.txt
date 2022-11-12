@@ -1,0 +1,62 @@
+No base storage do front temos uma funcao chamada imprimirPdf, essa funcao sera responsavel por
+gerar os pdf no front. Essa funcao pede a action, a action seria a url depois da baseAPI.
+
+O ApiService tem o getPdf, e ele o responsavel de tudo, ele sim faz a req, criamos ele pq queriamos
+novos headers.
+No getPdf é importante transformar o responseType de blob para json. So criamos o getPdf pq queriamos
+mudar o headers dele, para se adequar a nossa requisicao.
+
+No base-storage do front temos o imprimirPdf que pega no blob que foi retornado e transforma numa url
+
+
+// VERIFICAR O QUE RETORNA CADA VARIAVEL DE AMBIENTE DO BASE-STORAGE
+app_url retorna http://localhost:3333/api/
+Accept representa o tipo que o cliente vai aceitar
+Content type diz ao ao cliente qual é  o tipo de resposta que estamos enviando a partir do server.
+ResponseType inidica o tipo de resposta que é esperada do server... Pode ser um blob, json, text, arraybuffer
+Pq estamos convertendo o blob em json?
+Para que serve o responseType.
+O this.url do bas.storage no front é a url que vc manda no super.
+
+feature-reporting nome da nova branch
+git pull origin feature-code-review
+
+Priorize as mudancas que estao vindo
+
+set NODE_OPTIONS=--max_old_space_size=8096 para resolver memory leaks, isso vai no projeto.
+
+Quando vc tiver que clonar o projeto, sempre clone a code review que a branch que nos usamos, ja que a master esta sempre desatualizada.
+O back é o que está abandonado no c://, mas o front está dentro da pasta unig4algumacoisa
+
+
+Erro a gente mostra com 400
+
+this.simpleForm.controls.tipoObraId.valueChanges.subscribe(value=>{
+
+      if(!value) return;
+
+        // this.handleChange(value)
+
+    })
+
+As que têm fichas sao: Obras, equipamentos, clientes.
+Fichas as oprtunidades todas, exceto a em estudo...
+Nao fiz o pos-vendas pq ele nao esta mandando o id, desse jeito não tem como eu saber quem foi...
+O subempreiteiro nao fiz pq ja esta a dar erro 500.
+O que vou colocar no exmo senhor e ai no guia interna de sei la o que
+
+Frotas, em curso, se basear naquele layout... Dados da empresa que esta a fazer a req, se está em angola, etc. Abaixo e o cabecalho e mais abaixo os dados.
+
+git pull origin feature-code-review sempre que eu fazer o pull, ao fazer esse pull vai dar varios conflitos, resolvemos eles, fazemos um commit novamente.
+Quando tem erro de conflitos no codigo, ele vai dar erro no controller dizendo que o erro foi de <<<<<<< HEAD, entao vais na barra de pesquisa do vscode e colocas isso, vai mostrar todos os codigo que tem o erro de conflitos
+18 salas de aula.
+
+FichaTecnicaEquipamentoRepository
+
+
+No Editar cliente nao preenche telefone e email
+No perfil add nome acesso e desbloquear os campos de cima, o user escreve o nome dele e eu gero o nome de acesso dele e salvo em users
+
+adonis make:migration alter_telefone_from_pessoa_contacto_oportunidades (Para alterar uma migration no adonis 4), se for para alter um tipo, coloca-se alter
+
+

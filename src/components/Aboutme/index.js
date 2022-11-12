@@ -59,8 +59,8 @@ const Page = () => {
 
         <div className="sobre-right-side">
           <p>
-            Sou desenvolvedor Full Stack (Angular, React.js, Typescript, Node.js (NestJS e AdonisJs)), com
-            bacharelato concluído em engenharia Informática. Sou uma pessoa
+            Sou desenvolvedor Full Stack (Angular, Reactjs, Typescript, Node.js (NestJS e AdonisJs)), sou 
+            licenciado em engenharia Informática. Sou uma pessoa
             completamente apaixonada por tecnologia, principalmente pela área da
             programação de software.
           </p>
