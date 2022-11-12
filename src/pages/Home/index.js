@@ -46,7 +46,7 @@ const Page = () => {
     {
       title: "Escolinha Criar e Crescer",
       description:
-        "Projeto criado com Angular e NestJS. Este é um site de doações para a instituição de caridade Escolinha Criar e Crescer, o projeto é totalmente responsivo. Se quiser ver este projeto rodando, clique no link Vercel.",
+        "Projeto criado com Angular, Bootstrap e NestJS. Este é um site de doações para a instituição de caridade Escolinha Criar e Crescer, o projeto é totalmente responsivo. Se quiser ver este projeto rodando, clique no link Vercel.",
       techs: "Angular, NestJS",
       linksName: ["Vercel", "Frontend"],
       linksURL: [
