@@ -53,7 +53,7 @@ const Page = () => {
         "https://escolinha-criar-crescer-git-master-rigobertocaionda.vercel.app/home",
         "#"
       ],
-      images: ["/assets/escolinha1.PNG", "/assets/escolinha2.PNG", "/assets/escolinha3.PNG"]
+      images: ["/assets/escolinha4.PNG", "/assets/escolinha5.PNG", "/assets/escolinha6.PNG"]
     },
     {
       title: "Tubidy",
