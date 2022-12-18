@@ -46,11 +46,11 @@ const Page = () => {
             </div>
             <div className="download-documents">
               Baixar CV:{" "}
-              <a href="/assets/cv.pdf" download="Rigoberto Caionda">
+              <a href="/assets/cv1.pdf" download="Rigoberto Caionda">
                 PDF
               </a>
               ,{" "}
-              <a href="/assets/cv.docx" download="Rigoberto Caionda">
+              <a href="/assets/cv1.docx" download="Rigoberto Caionda">
                 Word
               </a>
             </div>
