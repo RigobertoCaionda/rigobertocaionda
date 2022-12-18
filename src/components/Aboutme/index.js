@@ -68,12 +68,10 @@ const Page = () => {
             Não tenho medo de experimentar novos desafios e tenho sede de resolver tarefas desafiadoras.
           </p>
           <p>
-           Eu amo programar, é algo super poderoso, é um orgulho ver as coisas se unindo para formar um produto
-           ou ferramenta útil.
+            Programar nem sempre é fácil, mas é sempre muito prazeroso resolver os desafios do dia a dia.
           </p>
           <p>
-           Programar nem sempre é fácil, mas é sempre muito prazeroso resolver os desafios do dia a dia.
-           O meu objetivo é dar soluções consistentes para os problemas reais das pessoas.
+            O meu objetivo é dar soluções consistentes para os problemas reais das pessoas.
           </p>
         </div>
       </div>
