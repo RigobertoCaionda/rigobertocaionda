@@ -59,18 +59,21 @@ const Page = () => {
 
         <div className="sobre-right-side">
           <p>
-            Sou desenvolvedor Full Stack (React.js, Typescript e Node.js), com
-            bacharelato concluído em engenharia Informática. Sou uma pessoa
-            completamente apaixonada por tecnologia, principalmente pela área da
-            programação de software.
+            Sou desenvolvedor Front end (React.js, Angular, Bootstrap, Typescript, Node.js), minha jornada em
+            programação começou em 2017 quando eu decidi tentar fazer o que eu sempre sonhei. A parte visual
+            de um site (O front end) chama-me muito a atenção.
           </p>
           <p>
-            Sou uma pessoa muito curiosa e estou sempre disposto a aprender
-            coisas novas.
+            Estou sempre procurando me melhorar como programador e estou sempre estudando coisas novas.
+            Não tenho medo de experimentar novos desafios e tenho sede de resolver tarefas desafiadoras.
           </p>
           <p>
-            Estou a procura de uma oportunidade de emprego como programador Web
-            em qualquer parte do mundo.
+           Eu amo programar, é algo super poderoso, é um orgulho ver as coisas se unindo para formar um produto
+           ou ferramenta útil.
+          </p>
+          <p>
+           Programar nem sempre é fácil, mas é sempre muito prazeroso resolver os desafios do dia a dia.
+           O meu objetivo é dar soluções consistentes para os problemas reais das pessoas.
           </p>
         </div>
       </div>

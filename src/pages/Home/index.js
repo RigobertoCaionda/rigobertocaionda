@@ -44,16 +44,16 @@ const Page = () => {
       ]
     },
     {
-      title: "Apiki",
+      title: "Escolinha Criar e Crescer",
       description:
-        "Projeto criado com ReactJS. Este site é um desafio do front challenge que consiste na criação desta página da Apiki. Apiki é uma empresa de criação de sites em wordpress e de hospedagem. Se quiser ver este projeto rodando, clique no link Vercel.",
-      techs: "ReactJS",
+        "Projeto criado com Angular, Bootstrap e NestJS. Este é um site  de doações para a instituição de caridade Escolinha Criar e Crescer, o projeto é totalmente responsivo. Se quiser ver este projeto rodando, clique no link Vercel.",
+      techs: "Angular, NestJS",
       linksName: ["Vercel", "Frontend"],
       linksURL: [
-        "https://apiki-git-master-rigobertocaionda.vercel.app/",
-        "https://github.com/RigobertoCaionda/apiki"
+        "https://escolinha-criar-crescer-git-master-rigobertocaionda.vercel.app/home",
+        "#"
       ],
-      images: ["/assets/apiki1.PNG", "/assets/apiki2.PNG"]
+      images: ["/assets/escolinha1.PNG", "/assets/escolinha2.PNG", "/assets/escolinha3.PNG"]
     },
     {
       title: "Tubidy",
