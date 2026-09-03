@@ -1,0 +1,30 @@
+.education {
+  padding-block: var(--space-20);
+}
+
+.education-content {
+  max-width: 600px;
+}
+
+.education-item {
+  padding: var(--space-6);
+  border-left: 2px solid var(--color-primary-muted);
+}
+
+.education-school {
+  font-size: var(--font-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.education-degree {
+  font-size: var(--font-body);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-1);
+}
+
+.education-period {
+  font-size: var(--font-small);
+  color: var(--color-text-muted);
+}

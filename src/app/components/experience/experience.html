@@ -1,0 +1,108 @@
+<section class="section experience" id="experience">
+  <div class="container">
+    <app-section-header label="Experiência" title="Percurso profissional" />
+
+    <div class="timeline">
+      @for (exp of experiences; track exp.company) {
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">{{ exp.company }}</h3>
+                <span class="timeline-role">{{ exp.role }}</span>
+              </div>
+              <span class="timeline-period">{{ exp.period }}</span>
+            </div>
+            <p class="timeline-description">{{ exp.description }}</p>
+            <div class="timeline-highlights">
+              @for (highlight of exp.highlights; track highlight) {
+                <span class="highlight-item">{{ highlight }}</span>
+              }
+            </div>
+            @if (exp.projects.length > 0) {
+              <div class="timeline-projects">
+                @for (project of exp.projects; track project.name) {
+                  <div class="project-block">
+                    <h4 class="project-name">{{ project.name }}</h4>
+                    <p class="project-description">{{ project.description }}</p>
+                    <div class="project-highlights">
+                      @for (h of project.highlights; track h) {
+                        <span class="highlight-item">{{ h }}</span>
+                      }
+                    </div>
+                  </div>
+                }
+              </div>
+            }
+            <div class="timeline-tags">
+              @for (tag of exp.tags; track tag) {
+                <span class="tag">{{ tag }}</span>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+
+    <div class="case-study">
+      <div class="case-study-header">
+        <h3 class="case-study-title">CapitalHub — Estudo de Caso</h3>
+        <p class="case-study-subtitle">Plataforma de Gestão de Investimentos</p>
+      </div>
+
+      <div class="case-study-architecture">
+          <h4 class="case-section-title">Arquitetura</h4>
+        <div class="architecture-flow">
+          @for (step of caseStudy.architecture; track step) {
+            <div class="arch-step">
+              <span class="arch-label">{{ step }}</span>
+              @if (!$last) {
+                <span class="arch-arrow">↓</span>
+              }
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="case-study-grid">
+        <div class="case-section">
+          <h4 class="case-section-title">Contexto</h4>
+          <p class="case-text">{{ caseStudy.context }}</p>
+        </div>
+        <div class="case-section">
+          <h4 class="case-section-title">Domínio</h4>
+          <p class="case-text">{{ caseStudy.domain }}</p>
+        </div>
+      </div>
+
+      <div class="case-study-grid">
+        <div class="case-section">
+          <h4 class="case-section-title">Responsabilidades</h4>
+          <ul class="case-list">
+            @for (item of caseStudy.responsibilities; track item) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        </div>
+        <div class="case-section">
+          <h4 class="case-section-title">Modelação de Dados</h4>
+          <ul class="case-list">
+            @for (item of caseStudy.dataModeling; track item) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        </div>
+      </div>
+
+      <div class="case-section">
+          <h4 class="case-section-title">Infraestrutura</h4>
+        <div class="infra-tags">
+          @for (item of caseStudy.infrastructure; track item) {
+            <span class="tag">{{ item }}</span>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

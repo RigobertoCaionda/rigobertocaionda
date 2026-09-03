@@ -1,0 +1,23 @@
+<section class="section projects" id="projects">
+  <div class="container">
+    <app-section-header label="Trabalho Selecionado" title="Projetos em que participei" />
+    <div class="projects-list">
+      @for (project of projects; track project.name) {
+        <div class="project-card">
+          <div class="project-card-header">
+            <div>
+              <h3 class="project-card-name">{{ project.name }}</h3>
+              <span class="project-card-category">{{ project.category }}</span>
+            </div>
+          </div>
+          <p class="project-card-description">{{ project.description }}</p>
+          <div class="project-card-tech">
+            @for (tech of project.technologies; track tech) {
+              <span class="tag">{{ tech }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

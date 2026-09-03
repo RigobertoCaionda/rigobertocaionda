@@ -1,0 +1,58 @@
+.expertise {
+  padding-block: var(--space-20);
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+.expertise-card {
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface);
+  transition: border-color var(--transition-base);
+}
+
+.expertise-card:hover {
+  border-color: var(--color-border-hover);
+}
+
+.expertise-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary-muted);
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+}
+
+.expertise-title {
+  font-size: var(--font-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.expertise-description {
+  font-size: var(--font-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+@media (max-width: 1024px) {
+  .expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}

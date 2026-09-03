@@ -1,0 +1,14 @@
+<section class="section engineering" id="engineering">
+  <div class="container">
+    <app-section-header label="Abordagem" title="Como abordo o software" />
+    <div class="engineering-grid">
+      @for (step of steps; track step.number) {
+        <div class="engineering-step">
+          <span class="step-number">{{ step.number }}</span>
+          <h3 class="step-title">{{ step.title }}</h3>
+          <p class="step-description">{{ step.description }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>

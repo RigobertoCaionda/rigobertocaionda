@@ -1,0 +1,17 @@
+<section class="section tech-stack" id="skills">
+  <div class="container">
+    <app-section-header label="Stack Tecnológica" title="Tecnologias e ferramentas" />
+    <div class="stack-grid">
+      @for (category of categories; track category.name) {
+        <div class="stack-category">
+          <h3 class="category-name">{{ category.name }}</h3>
+          <div class="category-skills">
+            @for (skill of category.skills; track skill) {
+              <span class="tag">{{ skill }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
