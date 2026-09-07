@@ -27,17 +27,19 @@ export interface CaseStudy {
 export const experiences: Experience[] = [
   {
     company: 'CapitalHub',
-    role: 'Engenheiro Backend',
+    role: 'Engenheiro de Software — Backend',
     period: '2026 — Presente',
     description:
-      'Engenheiro backend a construir uma plataforma de gestão de investimentos com Node.js, AdonisJS e MySQL.',
+      'Projeto pessoal de engenharia de software desenvolvido a partir das minhas próprias necessidades como investidor, com foco na construção de uma plataforma de gestão de investimentos utilizando Node.js, AdonisJS e MySQL.',
     highlights: [
       'Gestão de carteiras de investimento',
       'Operações de compra e venda de ativos',
-      'Cálculos de custo médio e custo de aquisição',
+      'Cálculo de custo médio e custo de aquisição',
       'Ganhos realizados e não realizados',
       'Rendimentos, dividendos e evolução patrimonial',
       'Tratamento de IAC, IVA e taxas de corretagem',
+      'Modelagem e persistência de dados financeiros',
+      'Autenticação, autorização e RBAC'
     ],
     projects: [],
     tags: ['Node.js', 'AdonisJS', 'MySQL', 'Redis', 'RabbitMQ', 'Docker'],
@@ -90,37 +92,40 @@ export const experiences: Experience[] = [
 
 export const capitalHubCaseStudy: CaseStudy = {
   context:
-    'CapitalHub é uma plataforma de gestão de investimentos que permite aos utilizadores gerir carteiras, executar transações de ativos e acompanhar o desempenho financeiro ao longo do tempo.',
+    'O CapitalHub é uma plataforma pessoal de gestão de investimentos, desenvolvida a partir das minhas próprias necessidades como investidor. A plataforma permite gerir carteiras, registar operações de compra e venda de ativos e acompanhar o desempenho financeiro e a evolução patrimonial ao longo do tempo.',
   domain:
-    'A plataforma trata de cálculos financeiros complexos incluindo custo médio, custo de aquisição, ganhos realizados e não realizados, dividendos, rendimentos e acompanhamento da evolução patrimonial.',
+    'O sistema implementa regras de negócio relacionadas com diferentes tipos de ativos e operações de investimento, incluindo cálculo de custo médio e custo de aquisição, Ganhos realizados e não realizados, Dividendos, juros e outros rendimentos, Impostos e taxas de corretagem, Gestão de posições em carteira, Evolução patrimonial e histórico de investimentos',
   responsibilities: [
     'Desenvolvimento de APIs backend com Node.js e AdonisJS',
-    'Implementação de lógica de negócio no domínio financeiro',
-    'Modelação MySQL para ativos, transações, cotações, fundos e obrigações',
-    'Autenticação e autorização com RBAC',
-    'Camada de cache Redis',
-    'Integração de mensageria RabbitMQ',
-    'Containerização com Docker',
+    'Implementação de regras de negócio no domínio financeiro',
+    'Modelagem e persistência de dados relacionais com MySQL',
+    'Modelagem de ativos, transações, cotações, fundos, obrigações e posições em carteira',
+    'Implementação de autenticação e autorização com RBAC',
+    'Utilização de Redis para cache e gestão de sessões',
+    'Utilização de RabbitMQ para mensageria assíncrona',
+    'Containerização da aplicação com Docker',
   ],
   dataModeling: [
+    'Utilizadores',
     'Ativos e tipos de ativos',
-    'Transações e histórico de transações',
-    'Cotações e dados de mercado',
-    'Fundos e obrigações',
+    'Transações',
+    'Cotações',
     'Posições em carteira',
+    'Fundos de investimentos',
+    'Obrigações',
     'Histórico de investimentos',
   ],
   infrastructure: [
     'Redis para cache e gestão de sessões',
     'RabbitMQ para mensageria assíncrona',
-    'Docker para deploy containerizado',
+    'Docker para containerização e preparação do ambiente de execução',
   ],
   architecture: [
     'Utilizadores',
     'Autenticação / Autorização',
     'Carteira',
     'Transações',
-    'Regras Financeiras',
+    'Regras de Negócio Financeiras',
     'Persistência',
     'Análises / Histórico',
   ],

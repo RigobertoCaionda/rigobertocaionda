@@ -9,9 +9,9 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'CapitalHub',
-    category: 'Plataforma Financeira · Backend',
+    category: 'Plataforma de Gestão de Investimentos · Backend',
     description:
-      'Plataforma de gestão de investimentos que trata de carteiras, transações de ativos, regras financeiras e acompanhamento de desempenho.',
+      'Plataforma pessoal de gestão de investimentos, desenvolvida para gerir carteiras, operações de compra e venda de ativos, regras financeiras e acompanhar o desempenho e a evolução patrimonial.',
     technologies: ['Node.js', 'AdonisJS', 'MySQL', 'Redis', 'RabbitMQ', 'Docker'],
   },
   {
