@@ -1,59 +1,104 @@
-# PortfolioFrontend
+# Hi, I'm Rigoberto Caionda 👋
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.19.
+### Software Engineer | Backend Developer
 
-## Development server
+I'm a Software Engineer focused on backend development, with professional experience building business-driven applications using **Node.js and AdonisJS**.
 
-To start a local development server, run:
+I work with **REST APIs, business rules, database modeling, authentication and authorization, integrations, and software architecture**, contributing across different stages of the software development lifecycle — from understanding business requirements to implementation, deployment, and maintenance.
 
-```bash
-ng serve
-```
+I'm particularly interested in building software that solves real business problems through well-structured systems and reliable backend solutions.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Backend
 
-```bash
-ng generate component component-name
-```
+* Node.js
+* AdonisJS
+* REST APIs
+* TypeScript / JavaScript
+* Authentication & Authorization
+* Business Logic
+* API Integrations
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Frontend
 
-```bash
-ng generate --help
-```
+* Angular
+* HTML
+* SCSS
 
-## Building
+### Databases
 
-To build the project run:
+* MySQL
+* MongoDB
 
-```bash
-ng build
-```
+### Infrastructure & Tools
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* Docker
+* Git
+* GitLab
+* GitHub
+* Linux
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🚀 Featured Project
 
-```bash
-ng test
-```
+### CapitalHub
 
-## Running end-to-end tests
+**CapitalHub** is a personal investment portfolio management application designed around the Angolan financial market and BODIVA investments.
 
-For end-to-end (e2e) testing, run:
+The project focuses on transforming investment data into a structured system for managing portfolios, transactions, assets, income, performance, and financial goals.
 
-```bash
-ng e2e
-```
+**Main areas:**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+* Investment portfolio management
+* Investment transaction history
+* Asset and price management
+* Portfolio performance and profitability
+* Fixed-income and variable-income investments
+* Expected income and payment schedules
+* Financial reports
+* Investment goals
+* Authentication, authorization and role-based permissions
 
-## Additional Resources
+**Backend:** Node.js · AdonisJS · MySQL
+**Frontend:** Angular
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> Built as a personal project to apply software engineering practices to a real-world financial domain.
+
+---
+
+## 💼 Professional Experience
+
+My professional experience includes developing and maintaining business applications, implementing backend services and APIs, modeling databases, integrating systems, and translating business requirements into software solutions.
+
+I currently work primarily with **Node.js, AdonisJS, Angular, MySQL, Docker and Git-based workflows**.
+
+---
+
+## 📌 What I Focus On
+
+* Backend development
+* Business-driven applications
+* REST API design
+* Database modeling
+* Authentication & authorization
+* Software architecture
+* Business rules and domain logic
+* System integrations
+* Clean and maintainable code
+* Continuous improvement
+
+---
+
+## 📫 Connect With Me
+
+* 💼 LinkedIn: https://www.linkedin.com/in/rigoberto-caionda/
+* 🌐 Portfolio: https://rigobertocaionda.vercel.app/
+* 📧 Email: rigobertocaionda98@gmail.com
+
+---
+
+### "Building software that solves real problems."
