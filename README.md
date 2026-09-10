@@ -43,7 +43,7 @@ I'm particularly interested in building software that solves real business probl
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Private Project
 
 ### CapitalHub
 
