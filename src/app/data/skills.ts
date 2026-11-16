@@ -6,7 +6,7 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     name: 'Backend',
-    skills: ['Node.js', 'AdonisJS', 'REST APIs'],
+    skills: ['Node.js', 'AdonisJS', 'Java', 'Spring Boot', 'REST APIs'],
   },
   {
     name: 'Bases de Dados',
